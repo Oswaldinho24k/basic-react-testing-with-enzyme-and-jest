@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Button based on props if disabled == false, button can be clickable 1`] = `
+<button
+  disabled={false}
+  onClick={[MockFunction]}
+>
+  text
+</button>
+`;
+
+exports[`Render Button based on props if disabled prop, button is disabled 1`] = `
+<button
+  disabled={true}
+  onClick={[MockFunction]}
+>
+  text
+</button>
+`;

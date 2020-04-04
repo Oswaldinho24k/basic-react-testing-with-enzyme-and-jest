@@ -1,0 +1,25 @@
+{
+  "name": "nextapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest --watch",
+    "test:coverage": "jest --coverage --watchAll",
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "dependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "next": "^9.3.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "better-docs": "^1.4.7",
+    "jest": "^25.2.7"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "tags": {
+    "allowUnknownTags": true    
+  },
+  "source": {
+    "include": ["./"],
+    "includePattern": "\\.js$",
+    "excludePattern": "(node_modules/|docs)"
+  },
+  "plugins": ["node_modules/better-docs/component"],
+  "opts": {
+    "encoding": "utf8",
+    "destination": "docs/"    
+  }
+}
